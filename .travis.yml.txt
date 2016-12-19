@@ -1,0 +1,10 @@
+language: python
+python:
+  - "3.3"
+  - "3.4"
+  - "3.5"
+# command to install dependencies
+install:
+  - pip install git+https://github.com/peter0083/exercise_4_python.git
+  - pip install -U pytest
+script: pytest
